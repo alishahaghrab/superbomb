@@ -1,43 +1,46 @@
---shared by @blackhatchannel
+
 local function run(msg)
-if msg.text == "hi" then
-	return "Hello bb"
+if msg.text == "سلام" then
+	return "سلام عزیز دل "
 end
-if msg.text == "Hi" then
-	return "Hello honey"
+if msg.text == "hi" then
+	return "Hello "
 end
 if msg.text == "Hello" then
-	return "Hi bb"
+	return "Hi "
 end
 if msg.text == "hello" then
 	return "Hi honey"
 end
 if msg.text == "Salam" then
-	return "Salam aleykom"
+	return "Salam jigare amour"
 end
 if msg.text == "salam" then
-	return "va aleykol asalam"
+	return "bale wlc"
 end
-if msg.text == "blackhat" then
-	return "my love blackhat"
+if msg.text == "amour" then
+	return "jan jan jan jan"
 end
-if msg.text == "Blackhat" then
-	return "my father blackhat"
+if msg.text == "Amour" then
+	return "junam azizam darkhedmatam"
 end
-if msg.text == "BLACKHAT" then
-	return "Kheily Radifeh"
+if msg.text == "AMOUR" then
+	return "mishnavam???"
 end
-if msg.text == "Security" then
-	return "Yes?"
+if msg.text == "dash hasti" then
+	return "are mongol"
 end
-if msg.text == "security" then
+if msg.text == "آمور" then
 	return "What?"
 end
-if msg.text == "bot" then
-	return "hum?"
+if msg.text == " چه خبر" then
+	return "سلامتیت عزیز دلم"
 end
-if msg.text == "Bot" then
-	return "Huuuum?"
+if msg.text == "هستی داداش" then
+	return "نه"
+end
+if msg.text == "بیا" then
+	return "کجا بیام؟"
 end
 if msg.text == "?" then
 	return "Hum??"
@@ -56,10 +59,10 @@ return {
 	patterns = {
 		"^[Hh]i$",
 		"^[Hh]ello$",
-		"^[Bb]lackhat$",
-		"^BLACKHAT$",
-		"^[Bb]ot$",
-		"^[Ss]ecurity$",
+		"^[Aa]mour$",
+		"^AMOUR$",
+		"^هستی داداش$",
+		"^آمور$",
 		"^[Bb]ye$",
 		"^?$",
 		"^[Ss]alam$",
