@@ -100,7 +100,6 @@ return {
 		"^[Aa]mour kas",
 		"^[Ll]aves baradar?",
 		"^[Ll]aves baradar",
-		
 		"^?$",
 		"^[Ss]alam$",
 		}, 
