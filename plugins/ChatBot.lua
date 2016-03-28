@@ -51,12 +51,40 @@ end
 if msg.text == "bye" then
 	return "boro bay"
 end
+if msg.text == "barev" then
+	return "barev zez siroonikin"
+end
+if msg.text == "lavek?" then
+	return "ես քէ լաւէմ փարք ԱՍՏԾՈՒ"
+end
+if msg.text == "park asdxoo" then
+	return "ամէնիս վրայ"
+end
+if msg.text == "shushan" then
+	return "😡shu + sha + nik😡"
+end
+if msg.text == "shushanik jan" then
+	return "❤️❤️😍😍ջանին մեռնէմ❤️❤️😍😍",
+end
+if msg.text == "amour kas" then
+	return "😉զորուչիւնով😉",
+end
+if msg.text == "laves baradar?" then
+	return "միթէ վատութիւն գոեութիւն ունի?",
+end
+if msg.text == "laves baradar" then
+	return "միթէ վատութիւն գոեութիւն ունի?",
+end
 end
 
 return {
 	description = "Chat With Robot Server", 
 	usage = "chat with robot",
 	patterns = {
+                "^سلام",
+                "^[Dd]ash hasti]",
+                "^چه خبر",
+                "^بیا",
 		"^[Hh]i$",
 		"^[Hh]ello$",
 		"^[Aa]mour$",
@@ -64,6 +92,15 @@ return {
 		"^هستی داداش$",
 		"^آمور$",
 		"^[Bb]ye$",
+		"^barev",
+		"^[Ll]avek?",
+		"^[Pp]ark asdxoo",
+		"^[Ss]hushan",
+		"^[Ss]hushanik jan",
+		"^[Aa]mour kas",
+		"^[Ll]aves baradar?",
+		"^[Ll]aves baradar",
+		
 		"^?$",
 		"^[Ss]alam$",
 		}, 
