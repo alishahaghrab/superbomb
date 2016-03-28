@@ -82,7 +82,7 @@ return {
 	usage = "chat with robot",
 	patterns = {
                 "^سلام",
-                "^[Dd]ash hasti]",
+                "^[Dd]ash hasti",
                 "^چه خبر",
                 "^بیا",
 		"^[Hh]i$",
