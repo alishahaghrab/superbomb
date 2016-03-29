@@ -1,46 +1,46 @@
 --shared by @blackhatchannel
 local function run(msg)
-if msg.text == "hi" then
-	return "Hello bb"
+if msg.text == "barev" then
+	return "bah baroves eki😜"
 end
-if msg.text == "Hi" then
+if msg.text == "Barev" then
 	return "Hello honey"
 end
-if msg.text == "Hello" then
-	return "Hi bb"
+if msg.text == "shushan" then
+	return "😡😡shu+sha+nik😡😡"
 end
-if msg.text == "hello" then
-	return "Hi honey"
+if msg.text == "Shushan" then
+	return "😢el chases ha"
 end
-if msg.text == "Salam" then
-	return "Salam aleykom"
+if msg.text == "lavek?" then
+	return "ես քէ լաւէմ փարք ԱՍՏԾՈՒ"
 end
-if msg.text == "salam" then
-	return "va aleykol asalam"
+if msg.text == "Lavek" then
+	return "ես քէ լաւէմ փարք ԱՍՏԾՈՒ"
 end
-if msg.text == "blackhat" then
-	return "my love blackhat"
+if msg.text == "park" then
+	return "ամէնիս վրայ"
 end
-if msg.text == "Blackhat" then
-	return "my father blackhat"
+if msg.text == "Park" then
+	return "ամէնիս վրայ"
 end
-if msg.text == "BLACKHAT" then
-	return "Kheily Radifeh"
+if msg.text == "shushanik jan" then
+	return "❤️❤️ջանին մեռնէմ❤️❤️"
 end
-if msg.text == "Security" then
-	return "Yes?"
+if msg.text == "amour kas" then
+	return "զորուչիւնով"
 end
-if msg.text == "security" then
-	return "What?"
+if msg.text == "Amour kas?" then
+	return "զորուչիւնո"
 end
-if msg.text == "bot" then
+if msg.text == "amour" then
 	return "hum?"
 end
-if msg.text == "Bot" then
+if msg.text == "Amour" then
 	return "Huuuum?"
 end
 if msg.text == "?" then
-	return "Hum??"
+	return "waht you say?"
 end
 if msg.text == "Bye" then
 	return "Babay"
@@ -54,12 +54,13 @@ return {
 	description = "Chat With Robot Server", 
 	usage = "chat with robot",
 	patterns = {
-		"^[Hh]i$",
-		"^[Hh]ello$",
-		"^[Bb]lackhat$",
-		"^BLACKHAT$",
-		"^[Bb]ot$",
-		"^[Ss]ecurity$",
+		"^[Bb]arev$",
+		"^[Ss]ushan$",
+		"^[Pp]ark$",
+		"^shushanik jan",
+		"^[Aa]mour$",
+		"^amour kas",
+		"^Amour kas?",
 		"^[Bb]ye$",
 		"^?$",
 		"^[Ss]alam$",
