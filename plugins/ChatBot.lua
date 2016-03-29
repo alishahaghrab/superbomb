@@ -30,6 +30,9 @@ end
 if msg.text == "dash hasti" then
 	return "are mongol"
 end
+if msg.text == "Dash hasti" then
+	return "are "
+end
 if msg.text == "آمور" then
 	return "What?"
 end
@@ -54,25 +57,43 @@ end
 if msg.text == "barev" then
 	return "barev zez siroonikin"
 end
+if msg.text == "Barev" then
+	return "barev zez siroonikin"
+end
 if msg.text == "lavek?" then
+	return "ես քէ լաւէմ փարք ԱՍՏԾՈՒ"
+end
+if msg.text == "Lavek?" then
 	return "ես քէ լաւէմ փարք ԱՍՏԾՈՒ"
 end
 if msg.text == "park asdxoo" then
 	return "ամէնիս վրայ"
 end
+if msg.text == "Park asdxoo" then
+	return "ամէնիս վրայ"
+end
 if msg.text == "shushan" then
+	return "😡shu + sha + nik😡"
+end
+if msg.text == "Shushan" then
 	return "😡shu + sha + nik😡"
 end
 if msg.text == "shushanik jan" then
 	return "❤️❤️😍😍ջանին մեռնէմ❤️❤️😍😍",
 end
+if msg.text == "Shushanik jan" then
+	return "❤️❤️😍😍ջանին մեռնէմ❤️❤️😍😍",
+end
 if msg.text == "amour kas" then
+	return "😉զորուչիւնով😉",
+end
+if msg.text == "Amour kas" then
 	return "😉զորուչիւնով😉",
 end
 if msg.text == "laves baradar?" then
 	return "միթէ վատութիւն գոեութիւն ունի?",
 end
-if msg.text == "laves baradar" then
+if msg.text == "Laves baradar" then
 	return "միթէ վատութիւն գոեութիւն ունի?",
 end
 end
@@ -101,7 +122,6 @@ return {
 		"^[Ss]hushanik jan",
 		"^[Aa]mour kas",
 		"^[Ll]aves baradar?",
-		"^[Ll]aves baradar",
 		}, 
 	run = run,
     --privileged = true,
