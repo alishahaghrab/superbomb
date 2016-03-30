@@ -55,7 +55,7 @@ return {
 	usage = "chat with robot",
 	patterns = {
 		"^[Bb]arev$",
-		"^[Ss]ushan$",
+		"^[Ss]hushan$",
 		"^[Pp]ark$",
 		"^shushanik jan",
 		"^[Aa]mour$",
