@@ -48,15 +48,6 @@ end
 if msg.text == "bye" then
 	return "boro bay"
 end
-if msg.text == "yerekhaner" then
-	return "sde mankapardez chi ha"
-end
-if msg.text == "el inch khabar" then
-	return "daste TABAR"
-end
-if msg.text == "el inch khabar?" then
-	return "asem ? daste TABAR"
-end
 end
 
 return {
@@ -72,10 +63,6 @@ return {
 		"^Amour kas?",
 		"^[Bb]ye$",
 		"^?$",
-		"^[Ss]alam$",
-		"^yerekhaner",
-		"^el inch khabar",
-		"^el inch khabar?",
 		}, 
 	run = run,
     --privileged = true,
