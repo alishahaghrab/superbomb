@@ -8,7 +8,7 @@
 ]]
 
 local apikey = 
-'Enter Your Clash API here' 
+'192.99.230.254' 
 local function run(msg, matches)
  if matches[1]:lower() == 'clan' or matches[1]:lower() == 'clash' or matches[1]:lower() == 'clantag' or matches[1]:lower() == 'tag' then
   local clantag = matches[2]
