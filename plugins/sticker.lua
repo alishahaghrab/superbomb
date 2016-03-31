@@ -5,7 +5,7 @@ local function download(msg, success, result, matches)
     print('File downloaded to:', result)
     os.rename(result, file)
     print('File moved to:', file)
-    send_large_msg(receiver, 'please send /make for create sticker\n@BeatBot_Team :))', ok_cb, false)
+    send_large_msg(receiver, 'please send /make for create sticker\nmrxFACE', ok_cb, false)
     redis:del("file:jpeg")
   else
     print('Error downloading: '..msg.id)
@@ -23,13 +23,13 @@ local function run(msg,matches)
     end
     if matches[1] == 'sticker' then
       redis:set("file:jpeg", "waiting")
-      return 'Please send me photo now\n @BeatBot_Team :)) '
+      return 'Please send me photo now\n mrXface '
 end
     if matches[1] == 'make' then
             local receiver = get_receiver(msg)
                   send_document(receiver, "./sticker/"..msg.from.id..".webp", ok_cb, false)
 
-      return 'by @BeatBot_Team :)) '
+      return 'by mrxface '
 end
 
     return
