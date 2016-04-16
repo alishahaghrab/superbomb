@@ -227,7 +227,7 @@ function create_config( )
     "plugins",
     "admin"
     },
-    sudo_users = {210948526,141422437,192783232,0,tonumber(our_id)},--Sudo users
+    sudo_users = {198230316,192783232,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Xbot v2 -not Open Source
@@ -235,10 +235,9 @@ function create_config( )
 
 Our team!
 AmouR (@MR_Xface)
-dany (@dannyx)
-KING (KinG0fDeaD)
+
 Special thanks to:
-@dawsh_iman
+
 @MR_xface
 
 ]],
