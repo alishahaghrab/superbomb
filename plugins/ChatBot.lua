@@ -30,17 +30,17 @@ end
 if msg.text == "amour kas" then
 	return "զորուչիւնով"
 end
-if msg.text == "Amour kas?" then
-	return "զորուչիւնո"
+if msg.text == "alfro" then
+	return "jonո"
 end
-if msg.text == "amour" then
+if msg.text == "amir" then
 	return "hum?"
 end
-if msg.text == "Amour" then
+if msg.text == "Amirr" then
 	return "Huuuum?"
 end
 if msg.text == "?" then
-	return "waht you say?"
+	return "?????????????"
 end
 if msg.text == "Bye" then
 	return "Babay"
@@ -58,8 +58,8 @@ return {
 		"^[Ss]hushan$",
 		"^[Pp]ark$",
 		"^shushanik jan",
-		"^[Aa]mour$",
-		"^amour kas",
+		"^[Aa]mir$",
+		"^alfro kas",
 		"^Amour kas?",
 		"^[Bb]ye$",
 		"^?$",
@@ -68,4 +68,4 @@ return {
     --privileged = true,
 	pre_process = pre_process
 }
---shared by @blackhatchannel
+--shared by
