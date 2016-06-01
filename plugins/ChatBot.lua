@@ -1,16 +1,16 @@
 --shared by @blackhatchannel
 local function run(msg)
-if msg.text == "barev" then
-	return "bah baroves eki😜"
+if msg.text == "amir" then
+	return "????????????"
 end
-if msg.text == "Barev" then
-	return "Hello honey"
+if msg.text == "bye" then
+	return "sik"
 end
-if msg.text == "shushan" then
-	return "😡😡shu+sha+nik😡😡"
+if msg.text == "eshgam" then
+	return "😡😡janm😡😡"
 end
-if msg.text == "Shushan" then
-	return "😢el chases ha"
+if msg.text == "bk" then
+	return "�bkkbk"
 end
 if msg.text == "lavek?" then
 	return "ես քէ լաւէմ փարք ԱՍՏԾՈՒ"
@@ -55,9 +55,9 @@ return {
 	usage = "chat with robot",
 	patterns = {
 		"^[Bb]arev$",
-		"^[Ss]hushan$",
+		"^[Bb]ye$",
 		"^[Pp]ark$",
-		"^shushanik jan",
+		"^eshgam",
 		"^[Aa]mir$",
 		"^alfro kas",
 		"^Amour kas?",
