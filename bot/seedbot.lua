@@ -234,11 +234,11 @@ function create_config( )
 
 
 Our team!
-AmouR (@alfroshotak)
+Amir (@alfroshotak)
 
 Special thanks to:
 
-@MR_xface
+@alfroshotak
 
 ]],
     help_text_realm = [[
